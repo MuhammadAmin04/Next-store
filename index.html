@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- box-icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/Logo.svg"
+      type="image/x-icon"
+    />
+    <title>Next-store</title>
+  </head>
+
+  <body>
+    <!-- javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- header starts -->
+    <header>
+      <span class="body">
+        <span class="span-1 gap-2 d-flex align-items-center"
+          ><img style="width: 15px" src="./assets/icons/Sms.svg" alt="" /> Aloqa
+          uchun</span
+        >
+        <span class="span-2 gap-2 d-flex align-items-center"
+          >UZ<img src="./assets/icons/Bottom.svg" alt=""
+        /></span>
+      </span>
+      <div class="container">
+        <div class="container">
+          <nav class="nav gap-4">
+            <a href="#"
+              ><img class="mt-3" src="./assets/icons/Logo.svg" alt=""
+            /></a>
+            <button class="d-flex align-items-center">
+              <img class="mx-2" src="./assets/icons/Menu.svg" alt="" /> KATALOG
+            </button>
+            <span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Maxsulotlarni izlash"
+              />
+              <img
+                class="bg-primary"
+                src="./assets/icons/qidirish.svg"
+                alt=""
+              />
+            </span>
+            <div class="buttons d-flex align-items-center gap-4">
+              <img src="./assets/images/Sevimlilar.png" alt="" />
+              <img src="./assets/images/Korzina.png" alt="" />
+              <button>Kirish</button>
+            </div>
+          </nav>
+        </div>
+     
+    </header>
+
+    <!-- header ends -->
+
+    <!-- main sections starts -->
+    <main>
+      <div class="container">
+        <section class="section-1">
+          <div class="wrapper">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./assets/images/hero.jpg"
+                    class="d-block w-100 rounded-5"
+                    alt=""
+                  />
+                  <div class="carousel-caption d-none d-md-block rounded"></div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/images/hero.jpg"
+                    class="d-block w-100 rounded-5"
+                    alt=""
+                  />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/images/hero.jpg"
+                    class="d-block w-100 rounded-5"
+                    alt=""
+                  />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="section-2">
+          <h1 class="mb-3">Kategoriyalar</h1>
+          <div class="cards-2">
+            <span class="card-1">
+              <img src="/assets/images/Mac.png" alt="" />
+              <p>Kompyuterlar va notebooklar</p>
+            </span>
+
+            <span class="card-1">
+              <img src="./assets/icons/image 6.svg" alt="" />
+              <p>Televizor va maishiy texnikalar</p>
+            </span>
+
+            <span class="card-1">
+              <img src="./assets/icons/image 6 (1).svg" alt="" />
+              <p>iPhone smartfonlar</p>
+            </span>
+
+            <span class="card-1">
+              <img src="./assets/icons/image 6 (2).svg" alt="" />
+              <p>Smart soatlar</p>
+            </span>
+
+            <span class="card-1">
+              <img src="./assets/icons/image 6 (3).svg" alt="" />
+              <p>Quloqchinlar</p>
+            </span>
+
+            <span class="card-1">
+              <img src="./assets/icons/image 6 (4).svg" alt="" />
+              <p>Kondetsioner</p>
+            </span>
+
+            <span class="card-1">
+              <img src="./assets/icons/image 6 (5).svg" alt="" />
+              <p>Muzlatgichlar</p>
+            </span>
+
+            <span class="card-1">
+              <img src="./assets/icons/image 6 (6).svg" alt="" />
+              <p>Kir yuvish mashinalari</p>
+            </span>
+          </div>
+          <div class="button-2">Batafsil</div>
+        </section>
+
+        <section class="section-3">
+          <h1>Eng ko’p sotilgan</h1>
+          <div class="cards-3">
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <p class="sale">Top Sale</p>
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <p class="sale">Top Sale</p>
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-33">
+            <div class="card" style="width: 18rem">
+              <p class="sale">Top Sale</p>
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <p class="sale">Top Sale</p>
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+          </div>
+          <div class="button-2">Batafsil</div>
+        </section>
+
+        <section class="section-4">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/images/image 1 (2).jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/image 1 (2).jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/image 1 (2).jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="section-3">
+          <h1>Eng ommabop</h1>
+          <div class="cards-3">
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-33">
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img class="card-like" src="./assets/icons/like.svg" alt="" />
+              <img
+                src="./assets/icons/image 15.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                class="card-shop"
+                src="./assets/icons/card-shop.svg"
+                alt=""
+              />
+
+              <div class="card-body">
+                <h5 class="card-title text-primary">14 299 000 so’m</h5>
+                <p class="card-text">
+                  Apple iPhone 14 Pro Max 2.4 2019 Intel core i5 DDR3 8 GB SSD
+                  256 GB
+                </p>
+                <p class="grey-text">1230 ta buyurtma</p>
+                <a href="#" class="btn btn-primary w-50">Sotib olish</a>
+              </div>
+            </div>
+          </div>
+          <div class="button-2">Batafsil</div>
+        </section>
+
+        <section class="section-5">
+          <h1 class="mb-3">Brendlar bo’yicha</h1>
+
+          <div class="cards-5">
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar.svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (1).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (2).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (3).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (4).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (5).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar.svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (1).svg" alt="" />
+            </span>
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (2).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (3).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (4).svg" alt="" />
+            </span>
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (5).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar.svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (1).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (2).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (3).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (4).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (5).svg" alt="" />
+            </span>
+          </div>
+        </section>
+
+        <section class="section-4">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/images/image 1 (2).jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/image 1 (2).jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/images/image 1 (2).jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="section-5">
+          <h1 class="mb-3">Do'konlarimiz</h1>
+
+          <div class="cards-5 mt-5">
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (7).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (8).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (9).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (10).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (11).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (3).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (7).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (8).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (9).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (10).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (11).svg" alt="" />
+            </span>
+
+            <span class="card-5">
+              <img src="./assets/icons/Brendlar (3).svg" alt="" />
+            </span>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- main sections ends -->
+
+    <!-- footer starts -->
+    <footer>
+      <div class="container">
+        <ul>
+          <strong>Hujjatlar</strong>
+          <li>Umumiy shartlar</li>
+          <li>Ofertalar arxivi</li>
+          <li>Nizom</li>
+          <li>Guvohnoma</li>
+        </ul>
+        <ul>
+          <strong>Servis</strong>
+          <li>Do’konlar</li>
+          <li>Biz haqimizda</li>
+          <li>Hamkorlik uchun</li>
+          <li>Qaytarish</li>
+          <li>Promokodlar</li>
+        </ul>
+        <ul>
+          <strong>Mahsulotlar katalogi</strong>
+          <li>Katalog 1</li>
+          <li>Katalog 1</li>
+          <li>Katalog 1</li>
+          <li>Katalog 1</li>
+          <li>Katalog 1</li>
+          <li>Katalog 1</li>
+        </ul>
+
+        <ul id="axborot">
+          <strong>Axborot xizmati</strong>
+          <li>contact.@nextstore.uz</li>
+          <li>+998 97 712 96 96 <br />+998 95 503 09 09</li>
+          <li>Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</li>
+          <span id="icons">
+            <img src="./assets/icons/FACEBOOK.svg" alt="" />
+            <img src="./assets/icons/INSTAGRAM.svg" alt="" />
+            <img src="./assets/icons/Telegram - Original.svg" alt="" />
+            <img src="./assets/icons/TikTok - Original.svg" alt="" />
+          </span>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="end">
+          <p>2022 Nextstore.com</p>
+          <p>Powered by</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+  </body>
+</html>
